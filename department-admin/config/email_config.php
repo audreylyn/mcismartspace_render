@@ -3,7 +3,7 @@
 // IMPORTANT: Never commit your actual API key to version control!
 
 // Get API key from environment variable (recommended for production)
-$brevo_api_key = getenv('BREVO_API_KEY') ?: 'your-brevo-api-key-here';
+$brevo_api_key = getenv('BREVO_API_KEY') ?: 'REMOVED_SENDINBLUE_KEY';
 
 define('BREVO_API_KEY', $brevo_api_key);
 define('FROM_EMAIL', 'mcismartspace@gmail.com');
